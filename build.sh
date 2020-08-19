@@ -1,8 +1,7 @@
 #!/bin/bash
 
-pwd
-
-for repo in athrill-target-ARMv7-A athrill-target-v850e2m athrill-target-rh850f1x
+# athrill target
+for repo in athrill-target-ARMv7-A athrill-target-v850e2m
 do
     cd $repo/build_linux
     make
@@ -10,6 +9,7 @@ do
     perl ./toppers_utils/makerelease $repo/E_PACKAGE
 done
 
+# athrill common
 cd athrill
 perl ../toppers_utils/makerelease
 cp RELEASE/athrill-*.tar.gz ../RELEASE/
