@@ -19,10 +19,10 @@ after_success:
 deploy:
   provider: releases
   api_key:
-    secure: ${GH_TOKEN}
+    secure: YSNrvmpGrmE09t6eLujZ0/IhDzWygyP72ztv76pJng3mBC7NVUftzr5hH+mGuuJatTDLdkgYfLjkGEeWrVq8Rh+uANOJA+pYud5pOWOro7oWKnD0sI+Sup7BXhUbRFuYvDHu6nmOeWcFqtri1bZ3SqTcrZmabyRy/E6yYOKmeMDkLK9VJZlEhSdUVf86/CePLNg8+QxV4QR0m2bdpy7Udq/mv9G0t5+Jsp0loHQw3d3ZqSebbHBL5vGvLhUlfwMplYsBXU9l3dTKGevA7f+LpFcPaozISS3/1k95++/gYb6v4IhSWAiz4QbvWK5vSLGJdk4hVCexva2kPeObTzZXhrB7AmyOPGJFJRO64lfVC1qCrrIUW+Cj4VQ1ut4LogEZ2sQKG50SpPIxDzsmrquv7Ie5jiFYUjCNCfGEM9Z7uoJ5T2cR+mJ9geiGyFDu2KWX6k/D2bJLJKAiCOhNDRjyL4DTccRdPI6UyJ9eXB+j1BvcHu2wnhMdgzugwgryHzBaROu3FX1tx/QuBdxfFYEbGWv6H3CdJVoqXZ4mnk2euFpgoyHy+3QWnApwMPzXb04nuubC887tOCSKNjtUIP1r6CQr6MEB8BAg61mZTePPFQNA+Srl/CdmxUspXnpMASLX7J853dzB5f4iLn6Pr16epQq4VVZBb43fcJFB9YWBmnk=
   file_glob: 'true'
   file: RELEASE/*
   on:
     tags: true
     repo: mitsut/hakoniwa
-  skip_cleanup: true
+  skip_cleanup: 'true'
