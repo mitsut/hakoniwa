@@ -18,7 +18,7 @@ after_success:
   - pwd; ls ; ls RELEASE
 deploy:
   provider: releases
-  api_key: $GH_TOKEN
+  api_key: "$GH_TOKEN"
   file_glob: 'true'
   file: RELEASE/*
   on:
