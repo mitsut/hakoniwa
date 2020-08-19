@@ -19,7 +19,7 @@ after_success:
 deploy:
   provider: releases
   api_key:
-    secure: kwYuaMV8mVYa4m9R0TJoiFZg91CfCnGj5l1GcPMMjKU+WpTOr6TRM0PdRViK4F8qvk5JyXxzPVMzBJzBOLhJBmstqIZcBEPhRkblD93HScyKw22r8ulUvkxDYeBaxgxQhA4WlOa4FswIDwkBXluHnXhrG7ceUqQRf0L61aY84MgZhM//r3EcP/xY7CgeEhUnVvfEh/FbP+K2fT/adz6n+yu0GHNGVfenpYVlZJu/WVi4CH3GSZx/mvg2NZxDwpZX5ip6qr5aSWzJ/F5dgyxh/xctNd2aW/6XKcp984bKxD4S43m8VMl4USgDSRV/j2Tl1lYgiF3YJeR9Z9qAzKIg4usW+RFPrqPGCg501aWyzD2kwObeaRvWzIUAK4moe5XiMmgOfzl9PEtkgkL3tZM3iZ68XXnQhrjHQ9uinsdTbSbxq8INrao3yFPvv2xvNsg4ofwxk5BraE6tMfSyIHU+o4bnNg3WDxjooPajnq/EBzPel/TMWtkVrfqHxk9zkPKyzx8kYUgQ+S1q5CzwU2IA1hjJg6fr6ahEn6N221V9VAg22ZKA7tHFh8412aQOwhAojgGaD022dFXxxeAIAZ10Rt4ni2s6bUaJOcmSz9rXbY7R+a1OqplnNLtfke6cGNTmi5j3pOJKULa5lqfOIKrSVbd4EmVJ0ZGxlzo4NnCV+3Q=
+    secure: ${GH_TOKEN}
   file_glob: 'true'
   file: RELEASE/*
   on:
