@@ -10,3 +10,6 @@
 [submodule "toppers_utils"]
 	path = toppers_utils
 	url = https://github.com/mitsut/toppers_utils.git
+[submodule "athrill-target-rh850f1x"]
+	path = athrill-target-rh850f1x
+	url = https://github.com/toppers/athrill-target-rh850f1x.git
