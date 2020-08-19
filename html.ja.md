@@ -8,7 +8,7 @@ athrillの最新リリースを配布しています。各ターゲット毎の�
 
 | ARM版 athrill | | |
 | :--- | :--- | :--- | 
-| リリース名 | サイズ | リリース日 | 
+| リリース名 | サイズ | リリース日 |
 | [athrill-target-ARMv7-A-20200820.tar.gz](https://www.toppers.jp/download.cgi/athrill-target-ARMv7-A-20200820.tar.gz) | | 2020-08-20 |
 
 | RH850版 athrill | | |
@@ -27,10 +27,22 @@ athrillの最新リリースを配布しています。各ターゲット毎の�
 | リリース名 | サイズ | リリース日 | 
 | [athrill-1.1.1.tar.gz](https://www.toppers.jp/download.cgi/athrill-1.1.1.tar.gz) | | 2020-08-20 |
 
+# 動作確認済みOS
+athrillでの動作が確認されているOSは以下の通りです。
+
+## ARM版
+
+## RH850版
+- [ATK2-SC1 Ver1.4.2 HSBRH850F1K](https://www.toppers.jp/download.cgi/atk2-sc1_hsbrh850f1k_ccrh-20200801.tar.gz)
+- [ATK2-SC3 Ver1.4.0 HSBRH850F1K](https://www.toppers.jp/download.cgi/atk2-sc3_hsbrh850f1k_ccrh-20190404.tar.gz)
+
+## V850版
+
 
 # athrillの利用事例
-箱庭ワーキンググループでは、コンセプトを実現するために，またWGメンバの技術研鑽のためにプロトタイプの構築を進めており、その中核としてathrillを利用しています。
+[箱庭ワーキンググループ](https://toppers.github.io/hakoniwa/) では、コンセプトを実現するために，またWGメンバの技術研鑽のためにプロトタイプの構築を進めており、その中核としてathrillを利用しています。
 
+[ETロボコン](https://www.etrobo.jp) のプラットフォームである、[EV3RT](https://dev.toppers.jp/trac_user/ev3pf/wiki/WhatsEV3RTSS))をathrill上でシミュレーションし、Unity上に構築したHackEVのUnityアセットを連携している例。
 ![単体ロボット向け](https://toppers.github.io/hakoniwa/img/prototypes/modelAdemo1.gif)
 
 
