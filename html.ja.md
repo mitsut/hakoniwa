@@ -30,13 +30,9 @@ athrillの最新リリースを配布しています。各ターゲット毎の�
 # 動作確認済みOS
 athrillでの動作が確認されているOSは以下の通りです。
 
-## ARM版
-
 ## RH850版
-- [ATK2-SC1 Ver1.4.2 HSBRH850F1K](https://www.toppers.jp/download.cgi/atk2-sc1_hsbrh850f1k_ccrh-20200801.tar.gz)
-- [ATK2-SC3 Ver1.4.0 HSBRH850F1K](https://www.toppers.jp/download.cgi/atk2-sc3_hsbrh850f1k_ccrh-20190404.tar.gz)
-
-## V850版
+- [ATK2-SC1 Ver1.4.2 HSBRH850F1K 簡易パッケージ](https://www.toppers.jp/download.cgi/atk2-sc1_hsbrh850f1k_ccrh-20200801.tar.gz)　
+- [ATK2-SC3 Ver1.4.0 HSBRH850F1K 簡易パッケージ](https://www.toppers.jp/download.cgi/atk2-sc3_hsbrh850f1k_ccrh-20190404.tar.gz)
 
 
 # athrillの利用事例
