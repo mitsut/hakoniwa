@@ -12,5 +12,5 @@ done
 
 cd athrill
 perl ../toppers_utils/makerelease
-cp RELEASE/athrill-*.tar.gz
+cp RELEASE/athrill-*.tar.gz ../RELEASE/
 cd ../
