@@ -4,22 +4,22 @@ matrix:
   - os: linux
     env: TARGET=x86_64-unknown-linux-gnu
 compiler:
-  - gcc
+- gcc
 addons:
   apt:
     sources:
-      - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
     packages:
-      - perl
+    - perl
 script:
-  - git submodule update --init 
-  - "./build.sh"
+- git submodule update --init
+- "./build.sh"
 after_success:
-  - pwd; ls ; ls RELEASE
+- pwd; ls ; ls RELEASE
 deploy:
   provider: releases
   api_key:
-    secure: "$GH_TOKEN"
+    secure: KnHFyN6vMB+w/ko8zw4hOEURJL8QhItVQjwFXfM6nNsHXoW8yieXhcdLFXuHd6mfaSMkvphHv1MFchPQf8uMg1uNt+4Daolo613nKTWH6wzU+oNY15N0uGeqFMwS3CSj8xMe3wwVf45rpcsoGRgkWH4FYiT44+BkP6Nd3KkuL4GW3HGwokWJVBvkgM97UdeBxbfQa4fTSY+UbJiwjGbnfAc/hH6/it1s6aGW8Yt9EZb0xrrYCrA9ovnFipCdctTOBT0ryxsrHUjLrzkOZ0ScLgf+f4rgIxzAg6CmzI0BF6Lo73emxsECeoutqpEYChrnNNqMP/+ErPOPU/Lztfhl2AXVth9z5sAZ8vLZka84vdPWUyqXtyseoPmwB5nedwWI64ahcESmjCXC4/vE9twz1pYgB3w3TBG4g9Ro/JC+IIw8jDLsWKDG9WSKIeGunAptfLSLVX7CS5cCiYBFljdDvSv80nJhBXAi+Ps746dkBMxad/9KQ5euvPy48pHmwc6ENUGPNCY86Oi3QgilCSBZ4HZUeQhcoym4cWMhAzahpf6Tvt6x/O/CvlH6qVmkrgpPXcY12W5/2m8YVCYg2NqxRpe5TaiW7JqvH0b5rjCx+ee1FaoegyS5K/lNFVE4yvvQPLCsI/yYHceRWZnvVhJO5ORMYV/T/7/s8uzI8Z8OQoU=
   file_glob: 'true'
   file: RELEASE/*
   on:
