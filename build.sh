@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # athrill target
-for repo in athrill-target-ARMv7-A athrill-target-v850e2m
+for repo in athrill-target-ARMv7-A athrill-target-v850e2m athrill-target-rh850f1x
 do
     cd $repo/build_linux
     make
